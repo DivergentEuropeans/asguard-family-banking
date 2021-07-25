@@ -1,8 +1,14 @@
-# Getting Started with Asguard Family Banking test app
+# Getting Started with the Asguard Family Banking (test React app)
+
+![image](https://user-images.githubusercontent.com/20528015/126916724-c02d9135-8a61-43e8-a338-c4a4e31e4ac6.png)
 
 ## Available Scripts
 
 In the project directory, you can run:
+
+### `npm i`
+
+Builds the app and all the necessary dependencies as designated in package.json
 
 ### `npm start`
 
