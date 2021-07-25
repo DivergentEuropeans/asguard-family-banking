@@ -200,7 +200,7 @@ class App extends React.Component {
             <Route path="/account">
               <div className="app-body">
                 <p className="list-item">
-                Account: {this.state.account_name} <Link to="/" >Go back</Link>
+                Account: {this.state.account_name} <Link to="/" >(home)</Link>
                 </p>
                 <p className="list-item">
                   Available Balance: ${this.state.available_balance}
