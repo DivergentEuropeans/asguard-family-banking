@@ -1,25 +1,74 @@
 .App {
-  text-align: center;
+  background-color: brown;
+  min-height: 1000px;
+  background-image: linear-gradient(140deg, #33160f 0%, #BC70A4 50%, #d69941 75%);
 }
 
 .App-logo {
-  height: 40vmin;
+  height: 30vmin;
+  margin-top: -5vmin;
+  margin-left: -20vmin;
   pointer-events: none;
+  position: absolute;
+}
+
+.asgard-banner {
+  opacity: .5;
+  height: 30vmin;
+  width: 100%;
+  pointer-events: none;
+  box-shadow: 4px 3px 8px 1px #000000;
+  -webkit-box-shadow: 4px 3px 8px 1px #000000;
+}
+
+.asgard-title {
+  position: absolute;
+  margin-left: 17vmin;
+  margin-top: 5vmin;
+  font-size: 7vmin;
+  -webkit-text-stroke-width: 3px;
+  -webkit-text-stroke-color: black;
+}
+
+.asgard-sub-title {
+  margin-top: 20vmin;
+  margin-left: 70vmin;
+  font-size: xx-large;
+  -webkit-text-stroke-width: 1px;
+  -webkit-text-stroke-color: black;
+  position: absolute;
+}
+
+.list-item {
+  margin-left: 5vmin;
+  font-size: larger;
+  -webkit-text-stroke-width: 1px;
+  -webkit-text-stroke-color: white;
+}
+
+.transfer-list-item {
+  -webkit-text-stroke-width: 1px;
+  -webkit-text-stroke-color: #404040;
+}
+
+.child-list-item {
+  -webkit-text-stroke-width: 1px;
+  -webkit-text-stroke-color: #ffe03c;
 }
 
 @media (prefers-reduced-motion: no-preference) {
   .App-logo {
-    animation: App-logo-spin infinite 20s linear;
+    /* animation: App-logo-spin infinite 20s linear; */
   }
 }
 
 .App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+  /* background-color: #282c34;
+  min-height: 100vh; */
   display: flex;
   flex-direction: column;
-  align-items: center;
-  justify-content: center;
+  /* align-items: center;
+  justify-content: center; */
   font-size: calc(10px + 2vmin);
   color: white;
 }
